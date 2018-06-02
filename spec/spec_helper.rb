@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "bundler/setup"
+require "capybara/rspec"
 require "normalize_capybara"
 
 RSpec.configure do |config|
